@@ -1,0 +1,122 @@
+/* Home.css */
+.homepage {
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #343a40;
+  color: white;
+  padding: 10px 20px;
+}
+
+
+.nav-left h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.nav-right button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-right button:hover {
+  background-color: #0056b3;
+
+}
+.email-list {
+  margin-top: 20px;
+  height: 450px;
+  overflow-y: auto;
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  border-radius: 5px;
+}
+.email-list::-webkit-scrollbar{
+  display: none;
+}
+
+.email-item {
+  background-color: #f1f1f1;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
+.email-item p {
+  margin: 5px 0;
+}
+
+.no-emails {
+  font-style: italic;
+  color: #777;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-left {
+  width: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.footer-left input {
+  margin-left: 15px;
+  width: fit-content;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.footer-left input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+.toggle-password-button {
+  margin-left: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+  padding: 5px;
+  color: #4CAF50;
+}
+
+.toggle-password-button:focus {
+  outline: none;
+}
+
+.footer button{
+  font-size: 15px;
+}
+
